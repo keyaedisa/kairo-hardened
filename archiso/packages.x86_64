@@ -117,8 +117,6 @@ wpa_supplicant
 wvdial
 xfsprogs
 xl2tpd
-zsh
-
 
 # everything above comes from archiso releng folder
 #######################################################
@@ -146,7 +144,7 @@ xterm
 ###      PACKAGES THAT STAY AFTER INSTALLATION      ###
 #######################################################
 
-sddm
+
 bash-completion
 grub
 os-prober
@@ -183,13 +181,11 @@ neofetch
 
 #xf86-video-intel
 #xf86-video-amdgpu
-#xf86-video-nouveau
+xf86-video-nouveau
 
 #nvidia
-#nvidia-settings
-#nvidia-utils
-
-
+nvidia-settings
+nvidia-utils
 
 ##### lightdm display manager
 
@@ -220,16 +216,16 @@ base-devel
 ##### want to have a desktop
 
 #test
-#xfce4
-#xfce4-goodies
+xfce4
+xfce4-goodies
 neofetch
 
 
 
 ##### want to add/use the ArcoLinux repos
 
-#arcolinux-mirrorlist-git
-#arcolinux-keyring
+arcolinux-mirrorlist-git
+arcolinux-keyring
 
 #test
 #arcolinux-wallpapers-git
@@ -265,8 +261,54 @@ neofetch
 linux-hardened
 linux-hardened-headers
 
-plasma-meta
+#######################################################
+###                    Kairo                        ###
+#######################################################
+
+##Extras 
+dialog
+dnsutils
+grub-tools
+haveged 
+logrotate 
+ntp
+wget
 dolphin
 konsole
+alacritty
+
+##AUR PACMAN
+yay-bin
+
+##yak is bae <3
 yakuake
+
 spectacle
+
+##Monitors
+nvtop
+htop
+
+##Fuck Vivaldi... <3 u xero its jus a joke
+firefox
+firefox-ublock-origin
+
+##Video
+nvidia-dkms
+mesa
+
+##Partitioning shit
+gnome-disk-utility
+
+##Dolphin 
+dolphin
+kde-cli-tools 
+kdegraphics-thumbnailers
+ffmpegthumbs
+purpose
+
+
+##Terminal Themes
+prot16-xfce4-terminal
+tempus-themes-xfce4-terminal-git
+
