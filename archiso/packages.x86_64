@@ -128,17 +128,10 @@ xl2tpd
 ###             VIA CALAMARES CONFIG                ###
 #######################################################
 
-#alci-dwm
-#alci-dwm-nemesis
-alci-calamares
-#alci-calamares-dev
-#alci-calamares-config
-#alci-calamares-config-btrfs
-#alci-calamares-config-dev
-#alci-calamares-config-lts
-#alci-calamares-config-pure
-alci-calamares-config-hardened
-xterm
+###Calamares
+xero-calamares
+xerolinux-rice
+calamares-config
 
 #######################################################
 ###      PACKAGES THAT STAY AFTER INSTALLATION      ###
